@@ -16,8 +16,11 @@ input1 = args.arg1
 input2 = args.arg2
 
 def addition(input1, input2):
-    result = input1+input2
-    return f'The sum of {input1} and {input2} is {result}'
+     try:
+        result = input1+input2
+        return f'The sum of {input1} and {input2} is {result}'
+    except ValueError:
+        return ValueError
 
 print(addition(input1, input2))
 
