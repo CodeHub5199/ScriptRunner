@@ -19,8 +19,8 @@ def addition(input1, input2):
      try:
         result = input1+input2
         return f'The sum of {input1} and {input2} is {result}'
-    except ValueError:
-        return ValueError
+    except Exception as e:
+        return e
 
 print(addition(input1, input2))
 
