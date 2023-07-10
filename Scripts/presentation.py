@@ -18,8 +18,8 @@ temp_path = args.arg1
 template = temp_path[0]
 img_list = temp_path[1:]
 
-print('temp_path: ', template)
-print('img_list: ', img_list)
+# print('temp_path: ', template)
+# print('img_list: ', img_list)
 
 left = Inches(1.5)
 top = Inches(0.75)
