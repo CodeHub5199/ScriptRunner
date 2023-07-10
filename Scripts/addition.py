@@ -1,4 +1,4 @@
-input_req = ['Enter first number', 'Enter second number']
+input_req = {'Enter first number':'text', 'Enter second number':'text'}
 
 import argparse
 
