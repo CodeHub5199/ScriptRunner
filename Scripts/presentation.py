@@ -39,6 +39,7 @@ def generate_ppt(temp_path):
         slide = presentation.slides.add_slide(presentation.slide_layouts[6])
         # Add the image to the slide
         picture = slide.shapes.add_picture(filename, left, top, width, height)
+    print('PPT Generated')
     return presentation
 
 
