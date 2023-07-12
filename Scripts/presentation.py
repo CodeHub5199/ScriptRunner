@@ -1,4 +1,4 @@
-input_req = {'Upload Template':'file_upload', 'Upload Images':'file_upload'}
+input_req = {'Upload Template':'file_upload', 'Upload Images':'file_upload', 'Output file name':'text'}
 
 import argparse
 import sys
