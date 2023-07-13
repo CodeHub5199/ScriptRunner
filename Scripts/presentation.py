@@ -1,4 +1,4 @@
-input_req = {'Upload Template':'file_upload', 'Upload Images':'file_upload', 'Output file name':'text'}
+input_req = {'Upload Template':'file_upload', 'Upload Images':'file_upload'}
 
 import argparse
 import sys
@@ -18,8 +18,8 @@ temp_path = sys.argv[1:]
 
 # print('main_temp_path: ', temp_path)
 template = temp_path[0]
-img_list = temp_path[1:-1]
-output_file_name = temp_path[-1]
+img_list = temp_path[1:]
+# output_file_name = temp_path[-1]
 
 #
 # print('temp_path: ', template)
